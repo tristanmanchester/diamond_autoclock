@@ -16,7 +16,7 @@ Your username, password, and Telegram bot token are securely stored on your loca
 | macOS   | macOS Keychain                            |
 | Linux   | Secret Service API (e.g., GNOME Keyring or KWallet)|
 
-During the bot's operation, a temporary Chromium browser instance is launched on your local machine. Your credentials are retrieved from the secure storage provided by `keyring` and used to authenticate you on the Diamond Light Source's internal self-service system. This is similar to how Google Chrome's Autofill feature operates. Importantly, your credentials are decrypted only when necessary and are never sent to any external locations. Access to these credentials requires you to be logged in to your computer.
+During the bot's operation, a temporary Chromium browser instance is launched on your local machine. Your credentials are retrieved from the secure storage provided by `keyring` and used to authenticate you on the Diamond Light Source's internal self-service system. This is similar to how Google Chrome's Autofill feature operates. Importantly, your credentials are decrypted only when necessary and are never sent to any external locations. Access to these credentials requires you to be logged in to your computer, and the bot will only perform actions when it receives messages from an authorised Telegram account (yours).
 
 
 
